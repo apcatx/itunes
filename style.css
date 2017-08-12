@@ -1,6 +1,5 @@
 body {
-  background-color: beige;
-  background-image: url("music-notes-background-2591.jpg");
+  background-color: black;
 }
 
 h1 {
@@ -18,7 +17,8 @@ h1 {
 }
 
 .player {
-  margin-left: 40rem;
+  display: flex;
+  justify-content: center;
   color: white;
 }
 
@@ -28,10 +28,8 @@ h1 {
 }
 
 .search-form {
-  margin-top: 40px;
-  margin-left: 25rem;
-  margin-bottom: -19px;
-  font-size: large;
+  display: flex;
+  justify-content: center;
 }
 
 section.results {
